@@ -5,6 +5,7 @@ class ScalaTestExample {
   def stringRevers(givenString: String): Unit = {
     try {
       println(s"Using revers function : $givenString.reverse")
+      println("added print from git hub")
       println("created new local branch")
       println("added just now"
       var builder: StringBuilder = StringBuilder.newBuilder;
