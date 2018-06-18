@@ -6,6 +6,7 @@ class ScalaTestExample {
     try {
       println(s"Using revers function : $givenString.reverse")
       println("created new local branch")
+      println("added just now"
       var builder: StringBuilder = StringBuilder.newBuilder;
       for (i <- givenString.size-1 to 0 by -1) {
         val chr = givenString.charAt(i.toInt)
